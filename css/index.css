@@ -315,3 +315,71 @@ footer {
     width: 100%;
   }
 }
+.form {
+  width: 100%;
+  margin: 0 auto;
+}
+.form h2 {
+  text-align: center;
+}
+.form .box {
+  height: 300px;
+  background: #22283a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 2rem auto;
+  border-radius: 2rem;
+}
+.form .box input[type="text"],
+.form .box input[type="email"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 1.4rem 1rem;
+  width: 200px;
+  outline: none;
+  color: #f6f6f6;
+  border-radius: 2.4rem;
+  transition: 0.25s;
+}
+.form .box input[type="text"]:focus,
+.form .box input[type="email"]:focus {
+  width: 280px;
+  border-color: #f6f6f6;
+}
+.form .box button {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 1.4rem 1rem;
+  width: 120px;
+  outline: none;
+  color: #f6f6f6;
+  border-radius: 2.4rem;
+  transition: 0.25s;
+  font-size: 1.5rem;
+}
+.form .box button .fa-rocket {
+  color: red;
+}
+.form .box button:focus {
+  width: 200px;
+}
+.form .box button:hover {
+  background: limegreen;
+}
+.form .box button:hover {
+  color: black;
+}
+.form .box button:hover .fa-rocket {
+  color: black;
+}
