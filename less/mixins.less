@@ -1,1 +1,15 @@
 // Mixins Here
+
+.signUp(@radius, @color) {
+  background: @btn-bg-color;
+  border-radius: @radius;
+  color: @color;
+  padding: 1rem 1.1rem;
+  width: 25%;
+  text-align: center;
+  font-size: 1.5rem;
+  &:hover {
+    background: @wild-sand;
+    color: @btn-bg-color;
+  }
+}
